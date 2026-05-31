@@ -1,47 +1,69 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sam's Restaurant Clydebank menus, reservations, online ordering and contact details." />
-  <title>Sam's Restaurant Clydebank</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Sam's Ristorante in Hardgate, Clydebank. Italian restaurant menus, reservations, online ordering and contact details." />
+  <title>Sam's Ristorante | Clydebank</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
+
 <body>
   <header class="site-header" id="top">
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#top" class="brand" aria-label="Sam's Restaurant home">
-        <span class="brand-mark">Sam's</span>
-        <span class="brand-subtitle">Restaurant Clydebank</span>
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Sam's Ristorante home">
+        <img src="574345852_842481955055885_5987996192867429633_n.jpg" alt="Sam's Ristorante logo" class="brand-logo" />
+        <span class="brand-text">
+          <span class="brand-name">SAM'S</span>
+          <span class="brand-subtitle">Ristorante</span>
+        </span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
       <div class="nav-links">
         <a href="#menus">Menus</a>
-        <a href="#book">Book</a>
         <a href="#contact">Contact</a>
-        <a class="nav-pill" href="https://www.just-eat.co.uk/restaurants-sams-restaurant-clydebank-duntocher/menu?utm_source=google&utm_medium=cpc&utm_campaign=CM_S_G_GBR_EN_%5BRES%5D_%5BENGM%5D_OD_Glasgow_1007336&utm_campaignid=16699739266&gad_source=1&gad_campaignid=16699739266&gbraid=0AAAAAD3ULIU6g-AhcTD15rKevyb7uE7CY&gclid=CjwKCAjwuO_QBhAWEiwAIkVhU1sclC0zWIjs9PghE5i9aaSmVgOdsEa7ulnbfsHyzWaAFnIxMX_y_xoCXHUQAvD_BwE" target="_blank" rel="noopener">Order online</a>
+        <a href="https://www.google.com/search?q=sams+restaurant" target="_blank" rel="noopener">Reviews</a>
+        <a class="nav-pill" href="https://www.just-eat.co.uk/restaurants-sams-restaurant-clydebank-duntocher/menu?utm_source=google&utm_medium=cpc&utm_campaign=CM_S_G_GBR_EN_[RES]_[ENGM]_OD_Glasgow_1007336&utm_campaignid=16699739266&gad_source=1&gad_campaignid=16699739266&gbraid=0AAAAAD3ULIU6g-AhcTD15rKevyb7uE7CY&gclid=CjwKCAjwuO_QBhAWEiwAIkVhU1sclC0zWIjs9PghE5i9aaSmVgOdsEa7ulnbfsHyzWaAFnIxMX_y_xoCXHUQAvD_BwE" target="_blank" rel="noopener">Order Online</a>
       </div>
     </nav>
 
     <section class="hero section-pad">
-      <p class="eyebrow">Italian dining in Hardgate</p>
-      <h1>Welcome to Sam's Restaurant</h1>
-      <p class="hero-copy">Fresh pasta, handcrafted pizza, Sunday dining, kids meals and classic Italian favourites from the heart of Clydebank.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="https://www.just-eat.co.uk/restaurants-sams-restaurant-clydebank-duntocher/menu?utm_source=google&utm_medium=cpc&utm_campaign=CM_S_G_GBR_EN_%5BRES%5D_%5BENGM%5D_OD_Glasgow_1007336&utm_campaignid=16699739266&gad_source=1&gad_campaignid=16699739266&gbraid=0AAAAAD3ULIU6g-AhcTD15rKevyb7uE7CY&gclid=CjwKCAjwuO_QBhAWEiwAIkVhU1sclC0zWIjs9PghE5i9aaSmVgOdsEa7ulnbfsHyzWaAFnIxMX_y_xoCXHUQAvD_BwE" target="_blank" rel="noopener">Order online</a>
-        <a class="btn btn-secondary" href="#book">Reserve a table</a>
+      <div class="logo-card">
+        <img src="574345852_842481955055885_5987996192867429633_n.jpg" alt="Sam's Ristorante logo" />
       </div>
-      <div class="hero-info" aria-label="Restaurant highlights">
-        <span>6 Rockbank Place</span>
+
+      <p class="eyebrow">Italian dining in Hardgate</p>
+      <h1>
+        <span>SAM'S</span>
+        <em>Ristorante</em>
+      </h1>
+      <p class="hero-copy">
+        Warm Italian food, fresh pasta, pizza, seafood, family menus and Sunday dining from Sam's Restaurant in Clydebank.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://www.just-eat.co.uk/restaurants-sams-restaurant-clydebank-duntocher/menu?utm_source=google&utm_medium=cpc&utm_campaign=CM_S_G_GBR_EN_[RES]_[ENGM]_OD_Glasgow_1007336&utm_campaignid=16699739266&gad_source=1&gad_campaignid=16699739266&gbraid=0AAAAAD3ULIU6g-AhcTD15rKevyb7uE7CY&gclid=CjwKCAjwuO_QBhAWEiwAIkVhU1sclC0zWIjs9PghE5i9aaSmVgOdsEa7ulnbfsHyzWaAFnIxMX_y_xoCXHUQAvD_BwE" target="_blank" rel="noopener">Order Online</a>
+        <a class="btn btn-secondary" href="https://www.thefork.co.uk/restaurant/sam-s-restaurant-clydebank-r741259?cc=84431-98f&gclsrc=aw.ds&gad_source=1&gad_campaignid=23300113121&gbraid=0AAAAACbKdpgt0vwfujbylNrzM9OwuJibr&gclid=CjwKCAjwuO_QBhAWEiwAIkVhUycqrGZvHXES5N7MY4tvY1b74BIi9K2rqzZ8Bave8djHCkpCKw5bJBoC4gMQAvD_BwE" target="_blank" rel="noopener">Reserve on TheFork</a>
+        <a class="btn btn-ghost" href="https://www.opentable.co.uk/r/sams-restaurant-clydebank?ref=4208" target="_blank" rel="noopener">Reserve on OpenTable</a>
+      </div>
+
+      <div class="hero-info">
+        <span>6 Rockbank Place, Hardgate</span>
         <span>01389 387871</span>
-        <span>Menus from £7.95</span>
+        <span>Clydebank</span>
       </div>
     </section>
   </header>
@@ -49,148 +71,159 @@
   <main>
     <section class="intro section-pad">
       <div>
-        <p class="eyebrow">Family friendly restaurant</p>
-        <h2>Italian dishes, local favourites and a warm welcome.</h2>
+        <p class="eyebrow">Benvenuti</p>
+        <h2>Classic Italian comfort with Sam's signature touch.</h2>
       </div>
-      <p>Explore our menus below. Vegetarian, vegan and hot dishes are marked where shown on the original menus. Please advise your server of any allergies or dietary requirements.</p>
+      <div>
+        <p>
+          Browse our kids menu, sprint menu, main menu and Sunday menu. Book a table, order online, or get in touch with the team.
+        </p>
+      </div>
     </section>
 
-    <section class="quick-actions section-pad" id="book">
+    <section class="quick-actions section-pad" aria-label="Quick actions">
       <article class="action-card">
-        <h2>Order online</h2>
-        <p>Order Sam's Restaurant for delivery or collection through Just Eat.</p>
-        <a class="text-link" href="https://www.just-eat.co.uk/restaurants-sams-restaurant-clydebank-duntocher/menu?utm_source=google&utm_medium=cpc&utm_campaign=CM_S_G_GBR_EN_%5BRES%5D_%5BENGM%5D_OD_Glasgow_1007336&utm_campaignid=16699739266&gad_source=1&gad_campaignid=16699739266&gbraid=0AAAAAD3ULIU6g-AhcTD15rKevyb7uE7CY&gclid=CjwKCAjwuO_QBhAWEiwAIkVhU1sclC0zWIjs9PghE5i9aaSmVgOdsEa7ulnbfsHyzWaAFnIxMX_y_xoCXHUQAvD_BwE" target="_blank" rel="noopener">Open Just Eat</a>
+        <h2>Order</h2>
+        <p>Order Sam's Restaurant online through Just Eat.</p>
+        <a class="text-link" href="https://www.just-eat.co.uk/restaurants-sams-restaurant-clydebank-duntocher/menu?utm_source=google&utm_medium=cpc&utm_campaign=CM_S_G_GBR_EN_[RES]_[ENGM]_OD_Glasgow_1007336&utm_campaignid=16699739266&gad_source=1&gad_campaignid=16699739266&gbraid=0AAAAAD3ULIU6g-AhcTD15rKevyb7uE7CY&gclid=CjwKCAjwuO_QBhAWEiwAIkVhU1sclC0zWIjs9PghE5i9aaSmVgOdsEa7ulnbfsHyzWaAFnIxMX_y_xoCXHUQAvD_BwE" target="_blank" rel="noopener">Order online</a>
       </article>
+
       <article class="action-card">
-        <h2>Reserve a table</h2>
-        <p>Book your table using TheFork or OpenTable.</p>
+        <h2>Reserve</h2>
+        <p>Book your table online using TheFork or OpenTable.</p>
         <div class="inline-links">
           <a class="text-link" href="https://www.thefork.co.uk/restaurant/sam-s-restaurant-clydebank-r741259?cc=84431-98f&gclsrc=aw.ds&gad_source=1&gad_campaignid=23300113121&gbraid=0AAAAACbKdpgt0vwfujbylNrzM9OwuJibr&gclid=CjwKCAjwuO_QBhAWEiwAIkVhUycqrGZvHXES5N7MY4tvY1b74BIi9K2rqzZ8Bave8djHCkpCKw5bJBoC4gMQAvD_BwE" target="_blank" rel="noopener">TheFork</a>
           <a class="text-link" href="https://www.opentable.co.uk/r/sams-restaurant-clydebank?ref=4208" target="_blank" rel="noopener">OpenTable</a>
         </div>
       </article>
+
       <article class="action-card">
         <h2>Reviews</h2>
         <p>See what guests are saying about Sam's Restaurant.</p>
-        <a class="text-link" href="https://www.google.com/search?num=10&sca_esv=f3dad59b4cbd1cb7&sxsrf=ANbL-n5Cv2pBgEPQN-CODS5s6rpUySw-wA:1780251682777&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOT4gLFdJ7_6eWdShckjxKoA8ZRuNtAHmZ90DhcLDKo_qk_dE0IYzML15SLjaPm7-B3uuRSL7eW9P4CY0FDJqXXvJWCE13JoLsfMWfXrXMsgiInO5hA%3D%3D&q=Sam%E2%80%99s+Restaurant+Clydebank+Reviews&sa=X&ved=2ahUKEwjyraapkuSUAxVXXEEAHZj8B3sQ0bkNegQIRBAF&biw=2048&bih=1111&dpr=1.25" target="_blank" rel="noopener">Google reviews</a>
+        <a class="text-link" href="https://www.google.com/search?q=sams+restaurant" target="_blank" rel="noopener">Google reviews</a>
       </article>
     </section>
 
     <section class="menus section-pad" id="menus">
       <div class="section-heading">
         <p class="eyebrow">Menus</p>
-        <h2>Choose your menu</h2>
-        <p>All menu details below are typed out from the provided menu images, with no image files used.</p>
+        <h2>Explore our dishes</h2>
+        <p>Use the tabs to browse each menu, or search for a dish, ingredient or category.</p>
       </div>
 
-      <div class="menu-tabs" role="tablist" aria-label="Restaurant menus">
-        <button class="tab-button active" type="button" data-menu-target="kids">Kids</button>
-        <button class="tab-button" type="button" data-menu-target="sprint">Sprint</button>
-        <button class="tab-button" type="button" data-menu-target="main">Main</button>
-        <button class="tab-button" type="button" data-menu-target="sunday">Sunday</button>
+      <div class="menu-controls">
+        <div class="menu-tabs" role="tablist" aria-label="Menu sections">
+          <button class="tab-button active" type="button" data-menu="kids">Kids</button>
+          <button class="tab-button" type="button" data-menu="sprint">Sprint</button>
+          <button class="tab-button" type="button" data-menu="main">Main</button>
+          <button class="tab-button" type="button" data-menu="pizza">Pizza, Carne & Pesce</button>
+          <button class="tab-button" type="button" data-menu="sunday">Sunday</button>
+        </div>
+
+        <label class="search-label" for="menuSearch">Search menu</label>
+        <input class="menu-search" id="menuSearch" type="search" placeholder="Search pasta, pizza, salmon, vegan..." />
       </div>
 
-      <label class="search-label" for="menuSearch">Search the menu</label>
-      <input id="menuSearch" class="menu-search" type="search" placeholder="Search pizza, pasta, vegan, chicken..." autocomplete="off" />
-
-      <article class="menu-panel active" id="menu-kids" data-menu-panel="kids">
+      <article class="menu-panel active" data-panel="kids">
         <div class="menu-title">
           <h3>Kids Menu</h3>
           <p class="price-line">£7.95 · Ice cream included</p>
         </div>
-        <div class="menu-grid compact-grid">
+
+        <div class="menu-grid">
           <div class="menu-item"><h4>Zuppa Del Giorno <span class="tag vegan">Vegan</span></h4><p>Home-made soup served with sourdough bread.</p></div>
           <div class="menu-item"><h4>Al Pomodoro <span class="tag vegetarian">Vegetarian</span></h4><p>Tomato sauce with mezzemaniche pasta.</p></div>
           <div class="menu-item"><h4>Al Ragu</h4><p>Mezzemaniche pasta with beef ragù.</p></div>
-          <div class="menu-item"><h4>Sam's Mac &amp; Cheese</h4><p>Macaroni cheese with Sam's twist in his delicious creamy five cheese sauce.</p></div>
-          <div class="menu-item"><h4>Margherita <span class="tag vegetarian">Vegetarian</span></h4><p>Tomato sauce and Fior di Latte mozzarella.</p></div>
-          <div class="menu-item"><h4>Pepperoni</h4><p>Tomato sauce, Fior di Latte mozzarella and pepperoni.</p></div>
-          <div class="menu-item"><h4>Prosciutto</h4><p>Tomato sugo, Fior di Latte mozzarella and cotto ham.</p></div>
-          <div class="menu-item"><h4>Funghi <span class="tag vegetarian">Vegetarian</span></h4><p>Tomato sugo, Fior di Latte mozzarella and mushrooms.</p></div>
+          <div class="menu-item"><h4>Sam's Mac & Cheese</h4><p>Macaroni cheese with Sam's twist in his delicious creamy 5 cheese sauce.</p></div>
+          <div class="menu-item"><h4>Margherita <span class="tag vegetarian">Vegetarian</span></h4><p>Tomato sauce, Fior di Latte mozzarella.</p></div>
+          <div class="menu-item"><h4>Pepperoni</h4><p>Tomato sauce, Fior di Latte mozzarella, pepperoni.</p></div>
+          <div class="menu-item"><h4>Prosciutto</h4><p>Tomato sugo, Fior di Latte mozzarella, cotto ham.</p></div>
+          <div class="menu-item"><h4>Funghi <span class="tag vegetarian">Vegetarian</span></h4><p>Tomato sugo, Fior di Latte mozzarella, mushrooms.</p></div>
           <div class="menu-item"><h4>Chicken Milanese</h4><p>Crispy-fried chicken breasts served with chips.</p></div>
-          <div class="menu-item"><h4>Kids Fish &amp; Chips</h4><p>Sam's kids fish and chips.</p></div>
+          <div class="menu-item"><h4>Kids Fish & Chips</h4><p>Sam's kids fish & chips.</p></div>
         </div>
+
         <div class="dessert-block">
           <h4>Dessert</h4>
           <p>Kids ice cream: vanilla, chocolate or strawberry.</p>
         </div>
       </article>
 
-      <article class="menu-panel" id="menu-sprint" data-menu-panel="sprint">
+      <article class="menu-panel" data-panel="sprint">
         <div class="menu-title">
           <h3>Sprint Menu</h3>
-          <p class="price-line">1 course £9.95 · 2 courses £17.95 · 3 courses £22.95</p>
-          <p class="small-note">1 course available Tuesday to Thursday, 12:00pm–3:00pm. 2 &amp; 3 courses available Tuesday to Thursday, 12:00pm–6:00pm, and Friday to Saturday, 12:00pm–3:00pm. Dishes can change.</p>
+          <p class="price-line">1 Course £9.95 · 2 Course £17.95 · 3 Course £22.95</p>
+          <p class="small-note">1 course available Tuesday to Thursday 12:00 PM - 3:00 PM. 2 & 3 course available Tuesday to Thursday 12:00 PM - 6:00 PM and Friday to Saturday 12:00 PM - 3:00 PM. Dishes can change.</p>
         </div>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Antipasti</h4>
           <div class="menu-grid">
-            <div class="menu-item"><h5>Zuppa Del Giorno <span class="tag vegan">VG</span></h5><p>Home-made soup of the day with artisan focaccia bread.</p></div>
-            <div class="menu-item"><h5>Mozzarella Fritta <span class="tag vegetarian">V</span></h5><p>Crisp-fried mozzarella, tomato sauce and basil pesto.</p></div>
-            <div class="menu-item"><h5>Haggis Croquette</h5><p>Crumbed and crisp-fried arancino of pasta filled with haggis, mozzarella and potatoes in a smoked nduja sauce with crispy pancetta.</p></div>
-            <div class="menu-item"><h5>Bruschetta Al Pomodoro <span class="tag vegan">VG</span></h5><p>Homemade sourdough bread, cherry tomatoes, garlic, basil, rocket and oregano.</p></div>
-            <div class="menu-item"><h5>Gamberoni <span class="supplement">£3 supplement</span></h5><p>Sautéed king prawns, garlic and chilli in a rich and creamy tomato sauce served with sourdough bread.</p></div>
-            <div class="menu-item"><h5>Cozze Al Vino Bianco</h5><p>Scotland Shetland mussels cooked in a white wine sauce with garlic, black pepper, parsley and a hint of chilli, served with homemade crispy sourdough bread.</p></div>
+            <div class="menu-item"><h4>Zuppa Del Giorno <span class="tag vegan">VG</span></h4><p>Home-made soup of the day with artisan focaccia bread.</p></div>
+            <div class="menu-item"><h4>Mozzarella Fritta <span class="tag vegetarian">V</span></h4><p>Crisp-fried mozzarella, tomato sauce and basil pesto.</p></div>
+            <div class="menu-item"><h4>Haggis Croquette</h4><p>Crumbed & crisp-fried arancino of pasta filled with haggis, mozzarella & potatoes in smoked nduja sauce & crispy pancetta.</p></div>
+            <div class="menu-item"><h4>Bruschetta Al Pomodoro <span class="tag vegan">VG</span></h4><p>Homemade sourdough bread, cherry tomatoes, garlic, basil, rocket oregano.</p></div>
+            <div class="menu-item"><h4>Gamberoni <span class="supplement">£3 supplement</span></h4><p>Sautéed king prawns, garlic & chilli in a rich and creamy tomato sauce served with sourdough bread.</p></div>
+            <div class="menu-item"><h4>Cozze Al Vino Bianco</h4><p>Scotland Shetland mussels cooked in white wine sauce with garlic, black pepper, parsley and a hint of chilli, served with homemade crispy sourdough bread.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Secondi</h4>
           <div class="menu-grid">
-            <div class="menu-item"><h5>Cotoletta Alla Milanese</h5><p>Crispy-fried chicken breasts in a crispy panko coating, served with half rigatoni tomato pasta. Upgrade with your choice of pasta for £3. Excludes lasagna.</p></div>
-            <div class="menu-item"><h5>Arrabbiata <span class="tag vegan">Vegan</span></h5><p>Spicy San Marzano tomato sugo with half rigatoni pasta. Add chicken or sausage for £3.</p></div>
-            <div class="menu-item"><h5>Il Panino Di Sam's</h5><p>Signature focaccia sandwich with crispy-fried chicken, basil pesto mayo, smoked cheese, roasted onion and rocket, served with golden Grana Padano skin-on chips.</p></div>
-            <div class="menu-item"><h5>Pizza Ortolana <span class="tag vegetarian">V</span></h5><p>Tomato sauce, Fior di Latte mozzarella, red peppers, aubergines and courgettes.</p></div>
-            <div class="menu-item"><h5>Pappardelle Al Ragu</h5><p>Pappardelle pasta with eight hours slow-cooked shredded beef ragù cooked in red wine with rich tomato sauce, finished with Grana Padano cheese.</p></div>
-            <div class="menu-item"><h5>Pizza Prosciutto e Funghi</h5><p>Tomato sauce, Fior di Latte mozzarella, wild mushroom and cotto ham.</p></div>
-            <div class="menu-item"><h5>Il Salmone <span class="supplement">£4 supplement</span></h5><p>Roasted Scottish salmon fillet in a pink peppercorn sauce served with crushed potatoes and honey roasted vegetables.</p></div>
-            <div class="menu-item"><h5>Sam's Mac &amp; Cheese</h5><p>Macaroni cheese pasta with Sam's twist: delicious creamy five cheese sauce, finished with herbed crumbs and chives.</p></div>
-            <div class="menu-item"><h5>Carbonara</h5><p>Smoked pancetta, garlic, egg and black pepper cream sauce with half rigatoni pasta.</p></div>
+            <div class="menu-item"><h4>Cotoletta Alla Milanese</h4><p>Crispy-fried chicken breasts in a crispy panko coating, served with half rigatoni tomato pasta. Upgrade with your choice of pasta for £3. Excludes lasagna.</p></div>
+            <div class="menu-item"><h4>Arrabbiata <span class="tag vegetarian">V</span></h4><p>Spicy San Marzano tomato sugo with half rigatoni pasta. Add chicken or sausage for £3.</p></div>
+            <div class="menu-item"><h4>Il Panino Di Sam's</h4><p>Signature focaccia sandwich, crispy-fried chicken, basil pesto, mayo, smoked cheese, roasted onion, rocket served with golden grana padano skin-on chips.</p></div>
+            <div class="menu-item"><h4>Pizza Ortolana <span class="tag vegetarian">V</span></h4><p>Tomato sauce, Fior di Latte mozzarella, red peppers, aubergines and courgettes.</p></div>
+            <div class="menu-item"><h4>Pappardelle Al Ragu</h4><p>Pappardelle pasta, 8 hours slow-cooked shredded beef ragù cooked in red wine with rich tomato sauce finished with Grana Padano cheese.</p></div>
+            <div class="menu-item"><h4>Pizza Prosciutto E Funghi</h4><p>Tomato sauce, Fior di Latte mozzarella, wild mushroom and cotto ham.</p></div>
+            <div class="menu-item"><h4>Il Salmone <span class="supplement">£4 supplement</span></h4><p>Roasted Scottish salmon fillet in a pink peppercorn sauce served with crushed potatoes and honey roasted veg.</p></div>
+            <div class="menu-item"><h4>Sam's Mac & Cheese</h4><p>Macaroni cheese pasta with Sam's twist delicious creamy 5 cheese sauce, finished with herbed crumbs and chives.</p></div>
+            <div class="menu-item"><h4>Carbonara</h4><p>Smoked pancetta, garlic, egg and black pepper cream sauce with half rigatoni pasta.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Dolci</h4>
-          <div class="menu-grid compact-grid">
-            <div class="menu-item"><h5>Tiramisu</h5><p>Savoiardi sponge soaked in espresso coffee, mascarpone and zabaione cream.</p></div>
-            <div class="menu-item"><h5>Cheesecake</h5><p>Butter biscuit base and cream cheese topped with fresh strawberry and basil.</p></div>
-            <div class="menu-item"><h5>Pannacotta</h5><p>White chocolate and vanilla panna cotta topped with wild berry sauce.</p></div>
-            <div class="menu-item"><h5>Ice Cream Selection</h5><p>Vanilla, chocolate or strawberry.</p></div>
+          <div class="menu-grid">
+            <div class="menu-item"><h4>Tiramisu</h4><p>Savoiardi sponge soaked in espresso coffee, mascarpone and zabaione cream.</p></div>
+            <div class="menu-item"><h4>Cheesecake</h4><p>Butter biscuit base and cream cheese topped with fresh strawberry and basil.</p></div>
+            <div class="menu-item"><h4>Pannacotta</h4><p>White chocolate & vanilla panna cotta, topped with wild berry sauce.</p></div>
+            <div class="menu-item"><h4>Ice Cream Selection</h4><p>Vanilla, chocolate, strawberry.</p></div>
           </div>
-        </div>
+        </section>
       </article>
 
-      <article class="menu-panel" id="menu-main" data-menu-panel="main">
+      <article class="menu-panel" data-panel="main">
         <div class="menu-title">
           <h3>Main Menu</h3>
           <p class="small-note">A discretionary 10% service charge will be added to your bill, all of which goes to our team.</p>
         </div>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Antipasto</h4>
           <div class="menu-grid">
-            <div class="menu-item price-item"><h5>Bread Basket &amp; Olives <span>£6.95</span></h5><p>Sourdough homemade bread, focaccia, taralli biscuits, grissini, Nocellara olives and butter.</p></div>
+            <div class="menu-item price-item"><h5>Bread Basket & Olives <span>£6.95</span></h5><p>Sourdough homemade bread, focaccia, taralli biscuits, grissini, Nocellara olives & butter.</p></div>
             <div class="menu-item price-item"><h5>Minestrone Soup <span>£7.50</span></h5><p>Home-made soup served with sourdough bread.</p></div>
-            <div class="menu-item price-item"><h5>Mozzarella Fritta <span>£8.95</span></h5><p>Crisp-fried mozzarella, tomato sauce and basil pesto.</p></div>
-            <div class="menu-item price-item"><h5>Gamberoni <span>£12.95</span></h5><p>Sautéed king prawns, garlic and chilli in a rich and creamy San Marzano tomato sauce, served with sourdough bread.</p></div>
-            <div class="menu-item price-item"><h5>Bruschetta Al Pomodoro <span>£8.50</span></h5><p>Homemade sourdough bread, cherry tomatoes, garlic, basil, oregano and extra virgin olive oil.</p></div>
-            <div class="menu-item price-item"><h5>Haggis Croquette <span>£9.95</span></h5><p>Crumbed and crisp-fried arancino of pasta filled with haggis, mozzarella and potatoes in a smoked nduja sauce with crispy pancetta.</p></div>
-            <div class="menu-item price-item"><h5>Calamari Fritti <span>£12.95</span></h5><p>Tempura of baby calamari dusted with garlic and chilli, served with garlic and lemon aioli.</p></div>
-            <div class="menu-item price-item"><h5>Cozze Al Vino Bianco <span>£10.95 / £18.95</span></h5><p>Shetland mussels cooked in a white wine sauce with garlic, black pepper, parsley and a hint of chilli, served with homemade crispy sourdough bread.</p></div>
+            <div class="menu-item price-item"><h5>Mozzarella Fritta <span>£8.95</span></h5><p>Crisp-fried mozzarella, tomato sauce & basil pesto.</p></div>
+            <div class="menu-item price-item"><h5>Gamberoni <span>£12.95</span></h5><p>Sautéed king prawns, garlic & chilli in a rich & creamy San Marzano tomato sauce served with sourdough bread.</p></div>
+            <div class="menu-item price-item"><h5>Bruschetta Al Pomodoro <span>£8.50</span></h5><p>Homemade sourdough bread, cherry tomatoes, garlic, basil, oregano & evo.</p></div>
+            <div class="menu-item price-item"><h5>Haggis Croquette <span>£9.95</span></h5><p>Crumbed & crisp-fried arancino of pasta filled with haggis, mozzarella & potatoes in smoked nduja sauce & crispy pancetta.</p></div>
+            <div class="menu-item price-item"><h5>Calamari Fritti <span>£12.95</span></h5><p>Tempura of baby calamari dusted with garlic & chilli with garlic & lemon aioli.</p></div>
+            <div class="menu-item price-item"><h5>Cozze Al Vino Bianco <span>£10.95 / £18.95</span></h5><p>Shetland mussels cooked in white wine sauce with garlic, black pepper, parsley & a hint of chilli, served with homemade crispy sourdough bread.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Focaccia</h4>
           <div class="menu-grid compact-grid">
-            <div class="menu-item price-item"><h5>Al Rosmarino <span>£6.95</span></h5><p>Fresh rosemary, sea salt and extra virgin olive oil.</p></div>
-            <div class="menu-item price-item"><h5>All'Aglio e Mozzarella <span>£6.95</span></h5><p>Garlic and Fior di Latte mozzarella.</p></div>
-            <div class="menu-item price-item"><h5>Piccante <span>£6.95</span></h5><p>Chilli, garlic, extra virgin olive oil and sea salt.</p></div>
+            <div class="menu-item price-item"><h5>Al Rosmarino <span>£6.95</span></h5><p>Fresh rosemary, sea salt and evoo.</p></div>
+            <div class="menu-item price-item"><h5>All'Aglio E Mozzarella <span>£6.95</span></h5><p>Garlic, Fior di Latte mozzarella.</p></div>
+            <div class="menu-item price-item"><h5>Piccante <span>£6.95</span></h5><p>Chilli, garlic, evoo & sea salt.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>I Contorni</h4>
           <div class="menu-grid compact-grid">
             <div class="menu-item price-item"><h5>Mix Salad <span>£5.95</span></h5></div>
@@ -198,157 +231,166 @@
             <div class="menu-item price-item"><h5>Roasted Potatoes <span>£5.95</span></h5></div>
             <div class="menu-item price-item"><h5>Honey Roasted Veg <span>£5.95</span></h5></div>
             <div class="menu-item price-item"><h5>Triple Cooked Chips <span>£5.95</span></h5></div>
-            <div class="menu-item price-item"><h5>Rocket, Cherry Tomato &amp; Parmesan Salad <span>£5.95</span></h5></div>
+            <div class="menu-item price-item"><h5>Rocket, Cherry Tomato & Parmesan Salad <span>£5.95</span></h5></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Paste</h4>
           <div class="menu-grid">
-            <div class="menu-item price-item"><h5>Spaghetti Al Pomodoro <span>£12.95</span></h5><p>Sautéed fresh baby tomato sauce and fresh basil with spaghetti pasta.</p></div>
+            <div class="menu-item price-item"><h5>Spaghetti Al Pomodoro <span>£12.95</span></h5><p>Sautéed fresh baby tomato sauce, fresh basil with spaghetti pasta.</p></div>
             <div class="menu-item price-item"><h5>Arrabbiata <span>£13.95</span></h5><p>Spicy San Marzano tomato sugo with half rigatoni pasta.</p></div>
-            <div class="menu-item price-item"><h5>Pappardelle Al Ragu <span>£15.95</span></h5><p>Pappardelle pasta, eight hours slow-cooked shredded beef ragù cooked in red wine with rich tomato sugo, finished with Parmesan cheese.</p></div>
-            <div class="menu-item price-item"><h5>Spaghetti Ai Gamberoni <span>£17.95</span></h5><p>Spaghetti pasta in a rich creamy tomato sauce with sautéed garlic king prawn and lemon zest.</p></div>
-            <div class="menu-item price-item"><h5>Pappardelle Ai Funghi <span>£16.95</span></h5><p>Pappardelle pasta in a creamy truffle and wild mushroom sauce.</p></div>
+            <div class="menu-item price-item"><h5>Pappardelle Al Ragu <span>£15.95</span></h5><p>Pappardelle pasta, 8 hours slow-cooked shredded beef ragù cooked in red wine with rich tomato sugo finished with Parmesan cheese.</p></div>
+            <div class="menu-item price-item"><h5>Spaghetti Ai Gamberoni <span>£17.95</span></h5><p>Spaghetti pasta in a rich creamy tomato with sautéed garlic king prawn & lemon zest.</p></div>
+            <div class="menu-item price-item"><h5>Pappardelle Ai Funghi <span>£16.95</span></h5><p>Pappardelle pasta in a creamy truffle, wild mushrooms sauce.</p></div>
             <div class="menu-item price-item"><h5>Carbonara <span>£15.95</span></h5><p>Smoked pancetta, garlic, egg and black pepper cream sauce with half rigatoni pasta.</p></div>
-            <div class="menu-item price-item"><h5>Lasagna <span>£15.95</span></h5><p>Fresh lasagna pasta, eight hours slow-cooked beef, tomato sauce, béchamel and mozzarella.</p></div>
-            <div class="menu-item price-item"><h5>Spaghetti Pollo Pesto <span>£15.95</span></h5><p>Roasted chicken, sun-dried tomatoes and basil pesto in creamy sauce with Pecorino Romano and spaghetti pasta.</p></div>
-            <div class="menu-item price-item"><h5>Risotto Pollo e Broccoli <span>£15.95</span></h5><p>Chicken breast, onion and broccoli cream tossed with risotto rice, finished with toasted pine nut butter and Grana Padano.</p></div>
-            <div class="menu-item price-item"><h5>Sam's Mac &amp; Cheese <span>£14.95</span></h5><p>Macaroni cheese pasta with Sam's twist: delicious creamy five cheese sauce, finished with herbed crumbs and chives.</p></div>
+            <div class="menu-item price-item"><h5>Lasagna <span>£15.95</span></h5><p>Fresh lasagna pasta, 8 hours slow cooked beef, tomato sauce, béchamel, mozzarella.</p></div>
+            <div class="menu-item price-item"><h5>Spaghetti Pollo Pesto <span>£15.95</span></h5><p>Roasted chicken, sun-dried tomatoes and basil pesto in creamy sauce with Pecorino Romano & spaghetti pasta.</p></div>
+            <div class="menu-item price-item"><h5>Risotto Pollo E Broccoli <span>£15.95</span></h5><p>Chicken breast, onion and broccoli cream tossed with risotto rice, finished with toasted pine nuts butter & Grana Padano.</p></div>
+            <div class="menu-item price-item"><h5>Sam's Mac & Cheese <span>£14.95</span></h5><p>Macaroni cheese pasta with Sam's twist in a delicious creamy 5 cheese sauce, finished with herbed crumbs and chives.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
-          <h4>Pizze</h4>
-          <p class="category-intro">Every 13-inch pizza is made fresh to order with high-grade “00” flour, a 24-hour fermentation and a light, airy blistered crust. Upgrade to gluten-free pizza for £2.</p>
+        <section class="menu-category">
+          <h4>Dolci</h4>
           <div class="menu-grid">
-            <div class="menu-item price-item"><h5>Margherita <span>£13.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella and basil.</p></div>
-            <div class="menu-item price-item"><h5>Pepperoni <span>£13.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, pepperoni and basil.</p></div>
-            <div class="menu-item price-item"><h5>Prosciutto e Funghi <span>£14.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, mushroom and cotto ham.</p></div>
-            <div class="menu-item price-item"><h5>Pollo Piccante <span>£15.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, spicy chicken, rocket and spicy aioli.</p></div>
-            <div class="menu-item price-item"><h5>Pepperoni Double Passion <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, loaded pepperoni, hot honey and basil.</p></div>
-            <div class="menu-item price-item"><h5>Ortolana <span>£14.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, red peppers, aubergines and courgettes.</p></div>
-            <div class="menu-item price-item"><h5>BBQ Chicken <span>£16.95</span></h5><p>Nduja, tomato and BBQ sauce base, mozzarella, Cajun chicken, sun-blushed tomatoes, red onion and fresh chillies.</p></div>
-            <div class="menu-item price-item"><h5>Diavola <span>£15.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, spinata salami, oregano, chilli, black olives, basil and spicy aioli.</p></div>
-            <div class="menu-item price-item"><h5>Funghi <span>£15.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella and mushrooms.</p></div>
-            <div class="menu-item price-item"><h5>Boscaiola <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, Italian sausage, mushrooms and smoked cheese.</p></div>
-            <div class="menu-item price-item"><h5>Carnosa <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, pepperoni, spicy nduja, Italian sausage, ricotta cheese, black pepper and basil.</p></div>
-            <div class="menu-item price-item"><h5>Peppino <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, marinated chicken, Italian sausage and spicy pepperoni.</p></div>
+            <div class="menu-item price-item"><h5>Tiramisu <span>£8.95</span></h5><p>Savoiardi sponge soaked in espresso coffee, mascarpone and zabaione cream.</p></div>
+            <div class="menu-item price-item"><h5>Pannacotta <span>£8.95</span></h5><p>White chocolate & vanilla panna cotta, topped with wild berry sauce.</p></div>
+            <div class="menu-item price-item"><h5>Cheesecake <span>£8.95</span></h5><p>Butter biscuit base and cream cheese topped with fresh strawberry and basil.</p></div>
+            <div class="menu-item price-item"><h5>Gelato <span>£7.95</span></h5><p>Trio of Italian ice cream: vanilla, Nutella, strawberry.</p></div>
+            <div class="menu-item price-item"><h5>Affogato <span>£8.45</span></h5><p>Italian chocolate semifreddo, hazelnuts, cocoa powder and doused with espresso coffee.</p></div>
           </div>
+        </section>
+      </article>
+
+      <article class="menu-panel" data-panel="pizza">
+        <div class="menu-title">
+          <h3>Pizza, Carne & Pesce</h3>
         </div>
 
-        <div class="menu-category">
+        <section class="menu-category">
+          <h4>Pizze</h4>
+          <p class="category-intro">Every 13” pizza is made fresh to order using high-grade “00” flour and slow-fermented dough.</p>
+          <div class="menu-grid">
+            <div class="menu-item price-item"><h5>Margherita <span>£13.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, basil.</p></div>
+            <div class="menu-item price-item"><h5>Pepperoni <span>£13.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, pepperoni, basil.</p></div>
+            <div class="menu-item price-item"><h5>Prosciutto E Funghi <span>£14.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, mushroom & cotto ham.</p></div>
+            <div class="menu-item price-item"><h5>Pollo Piccante <span>£15.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, spicy chicken, rocket and spicy aioli.</p></div>
+            <div class="menu-item price-item"><h5>Pepperoni Double Passion <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, loaded pepperoni, hot honey & basil.</p></div>
+            <div class="menu-item price-item"><h5>Ortolana <span>£14.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, red peppers, aubergines and courgettes.</p></div>
+            <div class="menu-item price-item"><h5>BBQ Chicken <span>£16.95</span></h5><p>Nduja, tomato & BBQ sauce base, mozzarella, Cajun chicken, sun-blushed tomatoes, red onion & fresh chillies.</p></div>
+            <div class="menu-item price-item"><h5>Diavola <span>£15.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, spianata salami, oregano, chilli, black olives, basil & spicy aioli.</p></div>
+            <div class="menu-item price-item"><h5>Funghi <span>£15.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, mushrooms.</p></div>
+            <div class="menu-item price-item"><h5>Boscaiola <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, Italian sausage, mushrooms, smoked cheese.</p></div>
+            <div class="menu-item price-item"><h5>Carnosa <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, pepperoni, spicy nduja, Italian sausage, ricotta cheese, black pepper & basil.</p></div>
+            <div class="menu-item price-item"><h5>Peppino <span>£16.95</span></h5><p>Tomato sauce, Fior di Latte mozzarella, marinated chicken, Italian sausage, spicy pepperoni.</p></div>
+          </div>
+          <p class="small-note menu-note">Upgrade to gluten free pizza for £2.</p>
+        </section>
+
+        <section class="menu-category">
           <h4>Carne</h4>
           <div class="menu-grid">
             <div class="menu-item price-item"><h5>Pollo Ai Funghi <span>£20.95</span></h5><p>Tender chicken breast cooked in wild mushroom sauce, served alongside roasted potatoes and honey roasted veg.</p></div>
             <div class="menu-item price-item"><h5>Cotoletta Alla Milanese <span>£19.95</span></h5><p>Crispy-fried chicken breasts in a crispy panko coating, served with half rigatoni tomato pasta. Upgrade with your choice of pasta for £3. Excludes lasagna.</p></div>
-            <div class="menu-item price-item"><h5>Rib-Aye Steak Alla Griglia <span>£35.95</span></h5><p>255g dry-aged Scotch rib-eye steak, roasted tomato and mushroom, peppercorn sauce, served with your choice from the sides.</p></div>
-            <div class="menu-item price-item"><h5>Il Panino Di Sam's <span>£17.95</span></h5><p>Focaccia sandwich with crispy-fried chicken, basil pesto aioli, smoked cheese, roasted red peppers and rocket, served with golden Grana Padano chips.</p></div>
-            <div class="menu-item price-item"><h5>The Burger <span>£18.95</span></h5><p>100% beef burger topped with cheddar cheese, pulled beef, nduja, fresh tomato and salad, served with chips.</p></div>
+            <div class="menu-item price-item"><h5>Rib-Aye Steak Alla Griglia <span>£35.95</span></h5><p>255g dry aged Scotch rib eye steak, roasted tomato and mushroom, peppercorn sauce served with your choice from the side.</p></div>
+            <div class="menu-item price-item"><h5>Il Panino Di Sam's <span>£17.95</span></h5><p>Focaccia sandwich, crispy-fried chicken, basil pesto aioli, smoked cheese, roasted red peppers, rocket served with golden Grana Padano chips.</p></div>
+            <div class="menu-item price-item"><h5>The Burger <span>£18.95</span></h5><p>100% beef burger topped with cheddar cheese, pulled beef, nduja, fresh tomato, salad served with chips.</p></div>
+            <div class="menu-item price-item"><h5>Sam's Cesarona <span>£14.95</span></h5><p>Cos lettuce, croutons, bacon, egg, parmesan shavings, bound together with our own Caesar dressing. Available with or without anchovies. Add chicken breast £5 or salmon fillet £7.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category highlight-category">
-          <h4>Sam's Cesarona</h4>
-          <div class="menu-grid compact-grid">
-            <div class="menu-item price-item"><h5>Sam's Cesarona <span>£14.95</span></h5><p>Cos lettuce, croutons, bacon, egg and Parmesan shavings bound together with our own Caesar dressing. Available with or without anchovies.</p><p class="small-note">Add chicken breast £5 · Add salmon fillet £7</p></div>
-          </div>
-        </div>
-
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Pesce</h4>
           <div class="menu-grid">
-            <div class="menu-item price-item"><h5>Il Salmone <span>£21.95</span></h5><p>Roasted Scottish salmon fillet in a peppercorn sauce served with crushed potatoes and honey roasted veg.</p></div>
-            <div class="menu-item price-item"><h5>Cozze Al Vino Bianco <span>£18.95</span></h5><p>Scotland Shetland mussels cooked in a white wine sauce with garlic, black pepper, parsley and a hint of chilli, served with homemade crispy sourdough bread and chips.</p></div>
-            <div class="menu-item price-item"><h5>Insalata Di Gamberoni <span>£19.95</span></h5><p>Garlic and butter king prawns, cos lettuce, croutons, bacon, egg and Parmesan shavings bound together with our own Caesar dressing.</p></div>
-            <div class="menu-item price-item"><h5>Fish &amp; Chips <span>£19.45</span></h5><p>Sam's fish and chips served with house salad, mushy peas, tartar sauce and lemon.</p></div>
+            <div class="menu-item price-item"><h5>Il Salmone <span>£21.95</span></h5><p>Roasted Scottish salmon fillet in a peppercorn sauce served with crushed potatoes & honey roasted veg.</p></div>
+            <div class="menu-item price-item"><h5>Cozze Al Vino Bianco <span>£18.95</span></h5><p>Scotland Shetland mussels cooked in a white wine sauce with garlic, black pepper, parsley & a hint of chilli, served with homemade crispy sourdough bread & chips.</p></div>
+            <div class="menu-item price-item"><h5>Insalata Di Gamberoni <span>£19.95</span></h5><p>Garlic & butter king prawns, cos lettuce, croutons, bacon, egg, parmesan shavings, bound together with our own Caesar dressing.</p></div>
+            <div class="menu-item price-item"><h5>Fish & Chips <span>£19.45</span></h5><p>Sam's fish & chips served with house salad, mushy peas, tartar sauce and lemon.</p></div>
           </div>
-        </div>
-
-        <div class="menu-category">
-          <h4>Dolci</h4>
-          <div class="menu-grid compact-grid">
-            <div class="menu-item price-item"><h5>Tiramisu <span>£8.95</span></h5><p>Savoiardi sponge soaked in espresso coffee, mascarpone and zabaione cream.</p></div>
-            <div class="menu-item price-item"><h5>Pannacotta <span>£8.95</span></h5><p>White chocolate and vanilla panna cotta topped with wild berry sauce.</p></div>
-            <div class="menu-item price-item"><h5>Cheesecake <span>£8.95</span></h5><p>Butter biscuit base and cream cheese topped with fresh strawberry and basil.</p></div>
-            <div class="menu-item price-item"><h5>Gelato <span>£7.95</span></h5><p>Trio of Italian ice cream: vanilla, Nutella and strawberry.</p></div>
-            <div class="menu-item price-item"><h5>Affogato <span>£8.45</span></h5><p>Italian chocolate semifreddo, hazelnuts and cocoa powder, doused with espresso coffee.</p></div>
-          </div>
-        </div>
+        </section>
       </article>
 
-      <article class="menu-panel" id="menu-sunday" data-menu-panel="sunday">
+      <article class="menu-panel" data-panel="sunday">
         <div class="menu-title">
           <h3>Sunday Menu</h3>
-          <p class="price-line">3 courses £24.95 · 12pm–6pm</p>
+          <p class="price-line">3 Course £24.95 · 12pm - 6pm</p>
         </div>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Antipasti</h4>
           <div class="menu-grid">
-            <div class="menu-item"><h5>Zuppa Del Giorno <span class="tag vegan">VG</span></h5><p>Home-made soup of the day with artisan focaccia bread.</p></div>
-            <div class="menu-item"><h5>Haggis Croquette</h5><p>Crumbed and crisp-fried arancino of pasta filled with haggis, mozzarella and potatoes in a smoked nduja sauce with crispy pancetta.</p></div>
-            <div class="menu-item"><h5>Mozzarella Fritta <span class="tag vegetarian">V</span></h5><p>Crisp-fried mozzarella, tomato sauce and basil pesto.</p></div>
-            <div class="menu-item"><h5>Calamari Fritti</h5><p>Tempura of baby calamari dusted with garlic and chilli with garlic and lemon aioli.</p></div>
-            <div class="menu-item"><h5>Gamberoni <span class="supplement">£3 supplement</span></h5><p>Sautéed king prawns, garlic and chilli in a rich and creamy tomato sauce served with sourdough bread.</p></div>
-            <div class="menu-item"><h5>Bruschetta Al Pomodoro <span class="tag vegan">VG</span></h5><p>Homemade sourdough bread, cherry tomatoes, garlic, basil, oregano and extra virgin olive oil.</p></div>
+            <div class="menu-item"><h4>Zuppa Del Giorno <span class="tag vegan">VG</span></h4><p>Home-made soup of the day with our artisan focaccia bread.</p></div>
+            <div class="menu-item"><h4>Haggis Croquette</h4><p>Crumbed & crisp-fried arancino of pasta filled with haggis, mozzarella & potatoes in a smoked nduja sauce & crispy pancetta.</p></div>
+            <div class="menu-item"><h4>Mozzarella Fritta <span class="tag vegetarian">V</span></h4><p>Crisp-fried mozzarella, tomato sauce and basil pesto.</p></div>
+            <div class="menu-item"><h4>Calamari Fritti</h4><p>Tempura of baby calamari dusted with garlic & chilli with garlic and lemon aioli.</p></div>
+            <div class="menu-item"><h4>Gamberoni <span class="supplement">£3 supplement</span></h4><p>Sautéed king prawns, garlic & chilli in a rich and creamy tomato sauce served with sourdough bread.</p></div>
+            <div class="menu-item"><h4>Bruschetta Al Pomodoro <span class="tag vegan">VG</span></h4><p>Homemade sourdough bread, cherry tomatoes, garlic, basil, oregano & evo.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Secondi</h4>
           <div class="menu-grid">
-            <div class="menu-item"><h5>Pollo Ai Funghi <span class="supplement">£3 supplement</span></h5><p>Tender chicken breast cooked in wild mushroom sauce, served alongside roasted potatoes and honey roasted veg.</p></div>
-            <div class="menu-item"><h5>Pappardelle Ai Funghi <span class="tag vegetarian">V</span></h5><p>Pappardelle pasta in a creamy truffle and wild mushroom sauce.</p></div>
-            <div class="menu-item"><h5>Lasagna</h5><p>Fresh lasagna pasta, eight hours slow-cooked beef, tomato sauce, béchamel and mozzarella.</p></div>
-            <div class="menu-item"><h5>Sam's Cesarona</h5><p>Roasted chicken breast, cos lettuce, croutons, bacon, egg and Parmesan shavings bound together with our own Caesar dressing. Available with or without anchovies.</p></div>
-            <div class="menu-item"><h5>Carbonara</h5><p>Smoked pancetta, garlic, egg and black pepper cream sauce with half rigatoni pasta.</p></div>
-            <div class="menu-item"><h5>Pizza Ortolana <span class="tag vegetarian">V</span></h5><p>Tomato sauce, Fior di Latte mozzarella, red peppers, aubergines and courgettes.</p></div>
-            <div class="menu-item"><h5>Fish &amp; Chips</h5><p>Sam's fish and chips served with house salad, mushy peas, tartar sauce and lemon.</p></div>
-            <div class="menu-item"><h5>Pizza Diavola</h5><p>Tomato sauce, Fior di Latte mozzarella, spicy spinata, fresh chillies and basil.</p></div>
+            <div class="menu-item"><h4>Pollo Ai Funghi <span class="supplement">£3 supplement</span></h4><p>Tender chicken breast cooked in wild mushroom sauce, served alongside roasted potatoes and honey roasted veg.</p></div>
+            <div class="menu-item"><h4>Pappardelle Ai Funghi <span class="tag vegetarian">V</span></h4><p>Pappardelle pasta in a creamy truffle, wild mushrooms sauce.</p></div>
+            <div class="menu-item"><h4>Lasagna</h4><p>Fresh lasagna pasta, 8 hours slow cooked beef, tomato sauce, béchamel, mozzarella.</p></div>
+            <div class="menu-item"><h4>Sam's Cesarona</h4><p>Roasted chicken breast, cos lettuce, croutons, bacon, egg, parmesan shavings, bound together with our own Caesar dressing. Available with or without anchovies.</p></div>
+            <div class="menu-item"><h4>Carbonara</h4><p>Smoked pancetta, garlic, egg and black pepper cream sauce with half rigatoni pasta.</p></div>
+            <div class="menu-item"><h4>Pizza Ortolana <span class="tag vegetarian">V</span></h4><p>Tomato sauce, Fior di Latte mozzarella, red peppers, aubergines and courgettes.</p></div>
+            <div class="menu-item"><h4>Fish & Chips</h4><p>Sam's fish & chips served with house salad, mushy peas, tartar sauce and lemon.</p></div>
+            <div class="menu-item"><h4>Pizza Diavola</h4><p>Tomato sauce, Fior di Latte mozzarella, spicy spianata, fresh chillies, basil.</p></div>
           </div>
-        </div>
+        </section>
 
-        <div class="menu-category">
+        <section class="menu-category">
           <h4>Dolci</h4>
-          <div class="menu-grid compact-grid">
-            <div class="menu-item"><h5>Tiramisu</h5><p>Savoiardi sponge soaked in espresso coffee, mascarpone and zabaione cream.</p></div>
-            <div class="menu-item"><h5>Cheesecake</h5><p>Butter biscuit base and cream cheese topped with fresh strawberry and basil.</p></div>
-            <div class="menu-item"><h5>Pannacotta</h5><p>White chocolate and vanilla panna cotta topped with wild berry sauce.</p></div>
-            <div class="menu-item"><h5>Affogato</h5><p>Italian chocolate semifreddo, hazelnuts and cocoa powder, doused with espresso coffee.</p></div>
+          <div class="menu-grid">
+            <div class="menu-item"><h4>Tiramisu</h4><p>Savoiardi sponge soaked in espresso coffee, mascarpone and zabaione cream.</p></div>
+            <div class="menu-item"><h4>Cheesecake</h4><p>Butter biscuit base and cream cheese topped with fresh strawberry and basil.</p></div>
+            <div class="menu-item"><h4>Pannacotta</h4><p>White chocolate & vanilla panna cotta, topped with wild berry sauce.</p></div>
+            <div class="menu-item"><h4>Affogato</h4><p>Italian chocolate semifreddo, hazelnuts, cocoa powder and doused with espresso coffee.</p></div>
           </div>
-        </div>
+        </section>
       </article>
+
+      <p class="no-results" hidden>No matching menu items found.</p>
     </section>
 
     <section class="contact section-pad" id="contact">
-      <div class="contact-card">
+      <article class="contact-card">
         <p class="eyebrow">Visit us</p>
-        <h2>Sam's Restaurant Clydebank</h2>
+        <h2>Sam's Ristorante</h2>
         <address>
           6 Rockbank Place<br />
           Hardgate<br />
           United Kingdom
         </address>
+
         <p><a href="tel:01389387871">01389 387871</a></p>
         <p><a href="mailto:samsrestaurantsclydebank@gmail.com">samsrestaurantsclydebank@gmail.com</a></p>
-      </div>
-      <div class="contact-card muted-card">
-        <h2>Plan your visit</h2>
-        <p>Book ahead for lunch, dinner and Sunday dining. For allergies and dietary requirements, contact the restaurant directly before ordering.</p>
+
         <div class="hero-actions align-left">
-          <a class="btn btn-primary" href="https://www.thefork.co.uk/restaurant/sam-s-restaurant-clydebank-r741259?cc=84431-98f&gclsrc=aw.ds&gad_source=1&gad_campaignid=23300113121&gbraid=0AAAAACbKdpgt0vwfujbylNrzM9OwuJibr&gclid=CjwKCAjwuO_QBhAWEiwAIkVhUycqrGZvHXES5N7MY4tvY1b74BIi9K2rqzZ8Bave8djHCkpCKw5bJBoC4gMQAvD_BwE" target="_blank" rel="noopener">Book on TheFork</a>
+          <a class="btn btn-primary" href="tel:01389387871">Call Now</a>
+          <a class="btn btn-secondary" href="mailto:samsrestaurantsclydebank@gmail.com">Email Us</a>
+        </div>
+      </article>
+
+      <article class="contact-card muted-card">
+        <img class="contact-logo" src="574345852_842481955055885_5987996192867429633_n.jpg" alt="Sam's Ristorante logo" />
+        <h2>Book your table</h2>
+        <p>Reserve online through TheFork or OpenTable.</p>
+        <div class="hero-actions align-left">
+          <a class="btn btn-primary" href="https://www.thefork.co.uk/restaurant/sam-s-restaurant-clydebank-r741259?cc=84431-98f&gclsrc=aw.ds&gad_source=1&gad_campaignid=23300113121&gbraid=0AAAAACbKdpgt0vwfujbylNrzM9OwuJibr&gclid=CjwKCAjwuO_QBhAWEiwAIkVhUycqrGZvHXES5N7MY4tvY1b74BIi9K2rqzZ8Bave8djHCkpCKw5bJBoC4gMQAvD_BwE" target="_blank" rel="noopener">TheFork</a>
           <a class="btn btn-secondary" href="https://www.opentable.co.uk/r/sams-restaurant-clydebank?ref=4208" target="_blank" rel="noopener">OpenTable</a>
         </div>
-      </div>
+      </article>
     </section>
   </main>
 
   <footer class="footer">
-    <p>&copy; <span id="year"></span> Sam's Restaurant Clydebank. Website files ready for GitHub Pages.</p>
+    <p>&copy; <span id="year"></span> Sam's Ristorante. All rights reserved.</p>
     <a href="#top">Back to top</a>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
